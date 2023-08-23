@@ -1323,6 +1323,12 @@
 	.callback .list-page {
 		max-width: 100%;
 	}
+	.block-form form {
+		padding-right: 0;
+	}
+	.row_categories > div:nth-child(4) .item-category__title {
+		width: initial;
+	}
 }
 
 /* Extra Small Devices, Phones */
