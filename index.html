@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/modal-video/modal-video.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<div class="sidebar-page">
+			<div class="btn-catalog">
+				<span class='sandwich'>
+					<span class='sw-topper'></span>
+					<span class='sw-bottom'></span>
+					<span class='sw-footer'></span>
+				</span>
+				<div class="btn-catalog__title">КАТАЛОГ</div>
+			</div>
+			<ul class="menu">
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Статьи</a></li>
+				<li><a href="#">Покупателям</a></li>
+				<li><a href="#">Компания</a></li>
+			</ul>
+			<ul class="social-vertical">
+				<li><a href="#"><i class="fab fa-viber"></i></a></li>
+				<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+				<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+			</ul>
+			<div class="catalog-dropdown">
+				<ul class="menu-catalog">
+					<li><a href="#">Уборочная техника</a></li>
+					<li><a href="#">Орудия почвообработки</a></li>
+					<li><a href="#">Трактора и минитрактора</a></li>
+					<li><a href="#">Зерносушильное оборудование</a></li>
+					<li><a href="#">Зерноочистительное оборудование</a></li>
+					<li><a href="#">Опрыскиватели</a></li>
+					<li><a href="#">Погрузчики зерна/Зернометатели</a></li>
+					<li><a href="#">Сеялки</a></li>
+					<li><a href="#">Протравливатели зерна</a></li>
+					<li><a href="#">Запчасти и комплектующие</a></li>
+					<li><a href="#">Прочее</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<header class="header">
+			<div class="container-fluid">
+				<div class="header__wrapper">
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="alt">
+						</a>
+						<div class="logo-descr">Продажа с/х техники в РФ</div>
+					</div>
+					<div class="location-main">
+						<div class="location-value"><i class="far fa-chevron-down"></i> <span><strong>Краснодар</strong>, ул. Уральская, 114 а</span></div>
+					</div>
+					<div class="form-search">
+						<form>
+							<input type="text">
+							<button class="btn-search">
+								<img src="img/search.svg" alt="alt">
+							</button>
+						</form>
+					</div>
+					<div class="header__right">
+						<div class="phones-main">
+							<a href="tel:+79604863959">+7 960 486 39 59</a>
+							<span>|</span>
+							<a href="tel:+79010151406">+7 901 015 14 06</a>
+						</div>
+						<a href="#" class="btn-main">Позвоните мне</a>
+					</div>
+					<div class="btn-menu">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+						<div class="btn-menu__title">меню</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="form-search">
+					<form>
+						<input type="text">
+						<button class="btn-search">
+							<img src="img/search.svg" alt="alt">
+						</button>
+					</form>
+				</div>
+				<ul class="menu-list">
+					<li class="menu__haschild">
+						<a href="#">Каталог <i class="far fa-chevron-down"></i></a>
+						<ul>
+							<li><a href="#">Уборочная техника</a></li>
+							<li><a href="#">Орудия почвообработки</a></li>
+							<li><a href="#">Трактора и минитрактора</a></li>
+							<li><a href="#">Зерносушильное оборудование</a></li>
+							<li><a href="#">Зерноочистительное оборудование</a></li>
+							<li><a href="#">Опрыскиватели</a></li>
+							<li><a href="#">Погрузчики зерна/Зернометатели</a></li>
+							<li><a href="#">Сеялки</a></li>
+							<li><a href="#">Протравливатели зерна</a></li>
+							<li><a href="#">Запчасти и комплектующие</a></li>
+							<li><a href="#">Прочее</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Статьи</a></li>
+					<li><a href="#">Покупателям</a></li>
+					<li><a href="#">Компания</a></li>
+				</ul>
+				<div class="location-main">
+					<div class="location-value"><i class="far fa-chevron-down"></i> <span><strong>Краснодар</strong>, ул. Уральская, 114 а</span></div>
+				</div>
+				<div class="phones-main">
+					<a href="tel:+79604863959">+7 960 486 39 59</a>
+					<span>|</span>
+					<a href="tel:+79010151406">+7 901 015 14 06</a>
+				</div>
+				<a href="#" class="btn-main">Позвоните мне</a>
+			</div>
+		</header>
+
+		<section class="billbord">
+			<div class="container">
+				<h1 class="title-big">Поставляем сельхоз оборудование</h1>
+				<div class="title-main">ведущих заводов-производителей с гарантией до 5 лет</div>
+				<div class="text-big">Минимальный риск: <strong>при форс-мажорах возвращаем 100% средств,</strong> <br>а так же предоставляем альтернативный выбор</div>
+				<a href="#" class="btn-main">Получить консультацию</a>
+			</div>
+		</section>
+
+		<section class="about">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 about__left">
+						<h2 class="title-main">Компания ООО «ЮМИС»</h2>
+						<div class="text-big">
+							<p>Специализируется на импорте, собственном производстве и поставке сельхозтехники, комплектующих и запчастей для фермерских хозяйств. В портфеле нашей компании имеются агрегаты собственного производства, а также всегда гарантируем индивидуальный и очень детальный подбор наиболее подходящих технических решений от производителей не только российских, но и зарубежных! </p>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<ul class="slider-cards">
+							<li>
+								<div class="item-card">
+									<div class="item-card__icon">
+										<img src="img/ic_card1.svg" alt="alt">
+									</div>
+									<div class="title-middle">15 000 товаров в наличии</div>
+									<p>Более 15 000  товаров в наличии: трактора, комбайны, плуги, жатки, культиваторы, запчасти и др.</p>
+								</div>
+							</li>
+							<li>
+								<div class="item-card dark">
+									<div class="item-card__icon">
+										<img src="img/ic_card2.svg" alt="alt">
+									</div>
+									<div class="title-middle">Работаем прозрачно</div>
+									<p>У нас простые договора, гибкие сроки поставки, всегда договоримся о цене, можем выезжать к клиенту индивидуально, для подписания договора</p>
+								</div>
+							</li>
+							<li>
+								<div class="item-card">
+									<div class="item-card__icon">
+										<img src="img/ic_card1.svg" alt="alt">
+									</div>
+									<div class="title-middle">15 000 товаров в наличии</div>
+									<p>Более 15 000  товаров в наличии: трактора, комбайны, плуги, жатки, культиваторы, запчасти и др.</p>
+								</div>
+							</li>
+							<li>
+								<div class="item-card dark">
+									<div class="item-card__icon">
+										<img src="img/ic_card2.svg" alt="alt">
+									</div>
+									<div class="title-middle">Работаем прозрачно</div>
+									<p>У нас простые договора, гибкие сроки поставки, всегда договоримся о цене, можем выезжать к клиенту индивидуально, для подписания договора</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="categories">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">У нас представлены следующие виды товаров</h2>
+					<a href="#" class="btn-page">Все категории</a>
+				</div>
+				<div class="row row_categories">
+					<div class="col-lg-4 col-md-6">
+						<div class="item-category">
+							<div class="item-category__title">Уборочная техника</div>
+							<div class="item-category__content">
+								<ul>
+									<li><a href="#">Соевые жатки</a></li>
+									<li><a href="#">Кукурузные жатки</a></li>
+									<li><a href="#">Жатки для подсолнечника</a></li>
+									<li><a href="#">Рапсовые столы</a></li>
+								</ul>
+								<a href="#" class="btn-main btn-main_white">Больше категорий</a>
+							</div>
+							<div class="item-category__image">
+								<img src="img/category1.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-category">
+							<div class="item-category__title">Орудия почвообработки</div>
+							<div class="item-category__content">
+								<ul>
+									<li><a href="#">Культиваторы</a></li>
+									<li><a href="#">Дисковые бороны/дискаторы</a></li>
+									<li><a href="#">Лущильники</a></li>
+									<li><a href="#">Плуги</a></li>
+								</ul>
+								<a href="#" class="btn-main btn-main_white">Больше категорий</a>
+							</div>
+							<div class="item-category__image">
+								<img src="img/category2.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-category">
+							<div class="item-category__title">Тракторы и минитракторы </div>
+							<div class="item-category__content">
+								<ul>
+									<li><a href="#">Тракторы от 80 л.с., </a></li>
+									<li><a href="#">Минитрактора до 80 л.с.</a></li>
+								</ul>
+								<a href="#" class="btn-main btn-main_white">Больше категорий</a>
+							</div>
+							<div class="item-category__image">
+								<img src="img/category3.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-category">
+							<div class="item-category__title">Зерносушильное оборудование</div>
+							<div class="item-category__content">
+								<ul>
+									<li><a href="#">Конвеерные </a></li>
+									<li><a href="#">Мобильные</a></li>
+									<li><a href="#">Стационарные/шахтные</a></li>
+								</ul>
+								<a href="#" class="btn-main btn-main_white">Больше категорий</a>
+							</div>
+							<div class="item-category__image">
+								<img src="img/category4.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-category">
+							<div class="item-category__title">Сеялки</div>
+							<div class="item-category__content">
+								<ul>
+									<li><a href="#">Пропашные</a></li>
+									<li><a href="#">Зерновые</a></li>
+									<li><a href="#">Посевные комплексы</a></li>
+								</ul>
+								<a href="#" class="btn-main btn-main_white">Больше категорий</a>
+							</div>
+							<div class="item-category__image">
+								<img src="img/category5.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-category">
+							<div class="item-category__title">Запчасти и комплектующие</div>
+							<div class="item-category__content">
+								<ul>
+									<li><a href="#">К комбайнам (claas) </a></li>
+									<li><a href="#">К тракторам</a></li>
+									<li><a href="#">К навесной и прицепной технике</a></li>
+								</ul>
+								<a href="#" class="btn-main btn-main_white">Больше категорий</a>
+							</div>
+							<div class="item-category__image">
+								<img src="img/category6.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Популярные товары</h2>
+					<a href="#" class="btn-page">Все товары</a>
+				</div>
+				<ul class="slider-catalog">
+					<li>
+						<div class="item-catalog">
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__content">
+								<a href="#" class="item-catalog__title">Минитрактор Solis 90</a>
+								<div class="item-catalog__descr">Россия</div>
+								<div class="price-main">от 459 000 Р</div>
+								<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__content">
+								<a href="#" class="item-catalog__title">Трактор FOTON LOVOL FT504CN</a>
+								<div class="item-catalog__descr">Германия</div>
+								<div class="price-main">от 459 000 Р</div>
+								<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__content">
+								<a href="#" class="item-catalog__title">Минитрактор Solis 90</a>
+								<div class="item-catalog__descr">Россия</div>
+								<div class="price-main">от 459 000 Р</div>
+								<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__content">
+								<a href="#" class="item-catalog__title">Трактор FOTON LOVOL FT504CN</a>
+								<div class="item-catalog__descr">Германия</div>
+								<div class="price-main">от 459 000 Р</div>
+								<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__content">
+								<a href="#" class="item-catalog__title">Минитрактор Solis 90</a>
+								<div class="item-catalog__descr">Россия</div>
+								<div class="price-main">от 459 000 Р</div>
+								<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__content">
+								<a href="#" class="item-catalog__title">Трактор FOTON LOVOL FT504CN</a>
+								<div class="item-catalog__descr">Германия</div>
+								<div class="price-main">от 459 000 Р</div>
+								<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="consultation">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-7">
+						<h2 class="title-main">Нужна помощь? <span>Закажите бесплатную консультацию!</span></h2>
+						<div class="text-big">Консультируем и решаем технические вопросы выбора и наличия товара</div>
+						<form>
+							<div class="line-form">
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+								</div>
+								<input type="submit" class="btn-main" value="Получить консультацию">
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-5">
+						<div class="image-consultation">
+							<img src="img/consultation.jpg" alt="alt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Новые поступления</h2>
+				</div>
+				<div class="row">
+					<div class="col-xl-6 col-lg-8">
+						<div class="banner-main">
+							<div class="title-section">Закажи трактор сейчас</div>
+							<div class="descr-banner">и получи <strong>бесплатную доставку</strong></div>
+							<div class="descr-banner"><strong>+ масло <span>в подарок</span></strong></div>
+							<div class="banner-main__icon">
+								<img src="img/icon_banner1.png" alt="alt">
+							</div>
+							<a href="#" class="btn-main">Перейти в каталог</a>
+							<div class="banner-main__image">
+								<img src="img/image_banner1.png" alt="alt">
+							</div>	
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-4 col_slider">
+						<ul class="slider-catalog-two">
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__content">
+										<a href="#" class="item-catalog__title">Минитрактор Solis 90</a>
+										<div class="item-catalog__descr">Россия</div>
+										<div class="price-main">от 459 000 Р</div>
+										<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+										<a href="#" class="link-page">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__content">
+										<a href="#" class="item-catalog__title">Трактор FOTON LOVOL FT504CN</a>
+										<div class="item-catalog__descr">Германия</div>
+										<div class="price-main">от 459 000 Р</div>
+										<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+										<a href="#" class="link-page">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__content">
+										<a href="#" class="item-catalog__title">Минитрактор Solis 90</a>
+										<div class="item-catalog__descr">Россия</div>
+										<div class="price-main">от 459 000 Р</div>
+										<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+										<a href="#" class="link-page">Подробнее</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog2.jpg" alt="alt">
+									</a>
+									<div class="item-catalog__content">
+										<a href="#" class="item-catalog__title">Трактор FOTON LOVOL FT504CN</a>
+										<div class="item-catalog__descr">Германия</div>
+										<div class="price-main">от 459 000 Р</div>
+										<div class="descr-price">*уточнить цену в <a href="#" class="btn-simple"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+										<a href="#" class="link-page">Подробнее</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<h2 class="title-section">Почему сельскохозяйственную технику лучше покупать в «Юмис»</h2>
+					</div>
+					<div class="col-lg-6">
+						<ul class="slider-cards">
+							<li>
+								<div class="item-card">
+									<div class="item-card__icon">01</div>
+									<div class="title-middle">Гарантия до 5 лет</div>
+									<p>Финансовые гарантии предоставляем абсолютно на всю линейку, в т.ч. на запчасти (кроме расходников) гарантию до 5 лет. Так же вся продукция сертифицирована, что гарантирует ее соответствие стандартам</p>
+								</div>
+							</li>
+							<li>
+								<div class="item-card dark">
+									<div class="item-card__icon">02</div>
+									<div class="title-middle">Минимальный риск </div>
+									<p>Производим 100% возврат средств при форс-мажорах, а также предоставляем альтернативные варианты</p>
+								</div>
+							</li>
+							<li>
+								<div class="item-card">
+									<div class="item-card__icon">03</div>
+									<div class="title-middle">Гарантия до 5 лет</div>
+									<p>Финансовые гарантии предоставляем абсолютно на всю линейку, в т.ч. на запчасти (кроме расходников) гарантию до 5 лет. Так же вся продукция сертифицирована, что гарантирует ее соответствие стандартам</p>
+								</div>
+							</li>
+							<li>
+								<div class="item-card dark">
+									<div class="item-card__icon">04</div>
+									<div class="title-middle">Минимальный риск </div>
+									<p>Производим 100% возврат средств при форс-мажорах, а также предоставляем альтернативные варианты</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="company">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 company__left">
+						<h2 class="title-main">Компания ООО «ЮМИС»</h2>
+						<div class="text-big">
+							<p>Специализируется на импорте, собственном производстве и поставке сельхозтехники, комплектующих и запчастей для фермерских хозяйств. В портфеле нашей компании имеются агрегаты собственного производства, а также всегда гарантируем индивидуальный и очень детальный подбор наиболее подходящих технических решений от производителей не только российских, но и зарубежных! </p>
+							<p>Ключевая цель работы – долгосрочное решение конкретных задач фермера. А наш упор на инновации, делают работу фермера легче, быстрее и прибыльнее!</p>
+							<p>Наша техника имеет гарантию до 5 лет. А собственная сервисная служба решает вопросы в самые короткие сроки, не зависимо от местонахождения фермера!</p>
+							<p>Специализируется на импорте, собственном производстве и поставке сельхозтехники, комплектующих и запчастей для фермерских хозяйств. В портфеле нашей компании имеются агрегаты собственного производства, а также всегда гарантируем индивидуальный и очень детальный подбор наиболее подходящих технических решений от производителей не только российских, но и зарубежных! </p>
+							<p>Ключевая цель работы – долгосрочное решение конкретных задач фермера. А наш упор на инновации, делают работу фермера легче, быстрее и прибыльнее!</p>
+							<p>Наша техника имеет гарантию до 5 лет. А собственная сервисная служба решает вопросы в самые короткие сроки, не зависимо от местонахождения фермера!</p>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="video-main" data-video-id="E8d_JvMpoY4">
+							<img src="img/video1.jpg" alt="alt">
+							<span class="play-btn"><i class="fas fa-play"></i></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="numbers">
+			<div class="row row_numbers">
+				<div class="col-lg-3 col-6">
+					<div class="item-number">
+						<div class="item-number__title"><span>5</span>лет</div>
+						<p>На рынке сельско-хозяйственной техники</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="item-number">
+						<div class="item-number__title"><span>30</span>хозяйств</div>
+						<p>За 5 лет поставили технику в более чем 30 хозяйств</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="item-number">
+						<div class="item-number__title"><span>15</span>складов</div>
+						<p>Склады в более чем <br>15 городах России</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6">
+					<div class="item-number">
+						<div class="item-number__title"><span>50 000</span></div>
+						<p>Наименований в каталоге</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="brands">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Мы — официальные дилеры производителей сельхоз техники и оборудования в России</h2>
+					<a href="#" class="btn-page">Все бренды</a>
+				</div>
+				<div class="row row_brands">
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand1.png" alt="alt">
+						</div>
+					</div>
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand2.png" alt="alt">
+						</div>
+					</div>
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand3.png" alt="alt">
+						</div>
+					</div>
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand4.png" alt="alt">
+						</div>
+					</div>
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand5.png" alt="alt">
+						</div>
+					</div>
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand6.png" alt="alt">
+						</div>
+					</div>
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand7.png" alt="alt">
+						</div>
+					</div>
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand8.png" alt="alt">
+						</div>
+					</div>
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand9.png" alt="alt">
+						</div>
+					</div>
+					<div class="col-brand">
+						<div class="item-brand">
+							<img src="img/brand10.png" alt="alt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="news">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Новости</h2>
+					<a href="#" class="btn-page">Все новости</a>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 news__left">
+						<div class="item-news">
+							<div class="row">
+								<div class="col-lg-5">
+									<a href="#" class="item-news__image">
+										<img src="img/news1.jpg" alt="alt">
+									</a>
+								</div>
+								<div class="col-lg-7">
+									<div class="item-news__date">05.05.22</div>
+									<a href="#" class="item-news__title">Снятие с учета трактора <br>в Гостехнадзоре</a>
+									<div class="item-news__text">Чтобы снять трактор с учета в Гостехнадзоре понадобится не так уж много времени и сил...</div>
+								</div>
+							</div>
+						</div>
+						<div class="item-news">
+							<div class="row">
+								<div class="col-lg-5">
+									<a href="#" class="item-news__image">
+										<img src="img/news2.jpg" alt="alt">
+									</a>
+								</div>
+								<div class="col-lg-7">
+									<div class="item-news__date">05.05.22</div>
+									<a href="#" class="item-news__title">Перевозка трактора <br>без документов</a>
+									<div class="item-news__text">Чтобы снять трактор с учета в Гостехнадзоре понадобится не так уж много времени и сил...</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="news-big">
+							<div class="news-big__date">05.05.22</div>
+							<a href="#" class="news-big__title">Навесные полнооборотные плуги для тракторов любой мощности</a>
+							<a href="#" class="btn-main btn-main_white">Читать подробнее</a>
+							<div class="news-big__image">
+								<img src="img/news_big1.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="callback">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 callback__left">
+						<h2 class="title-main">Оставьте заявку <br>на подбор сельхоз техники</h2>
+						<div class="title-middle">Оставьте ваши контакты и я свяжусь с вами, чтобы:</div>
+						<ul class="list-page">
+							<li>В зависимости от ваших потребностей подобрать подходящую технику</li>
+							<li>Дать альтернативные варианты по бюджету и срокам поставки</li>
+							<li>Получить КП с точными условиями для дальнейшего заключения договора</li>
+						</ul>
+					</div>
+					<div class="col-lg-4">
+						<div class="right-callback">
+							<div class="block-form">
+								<div class="title-middle">Получить КП</div>
+								<div class="descr-form">Заполните форму и мы перезвоним вам в ближайшее время</div>
+								<form>
+									<div class="item-form">
+										<input type="text" placeholder="Имя" required="required">
+									</div>
+									<div class="item-form">
+										<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+									</div>
+									<input type="submit" class="btn-main" value="Получить КП">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" required="required" checked="checked" />
+											<span>Согласие на обработку персональных данных</span>
+										</label>
+									</div>
+								</form>
+							</div>
+							<div class="image-callback">
+								<img src="img/img_callback.png" alt="alt">
+							</div>
+							<div class="bg-callback">
+								<img src="img/bg_callback.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo2.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Продажа с/х техники в РФ</div>
+						</div>
+						<ul class="social-list">
+							<li><a href="#"><i class="fab fa-viber"></i></a></li>
+							<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+							<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Каталог <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Уборочная техника</a></li>
+								<li><a href="#">Орудия почвообработки</a></li>
+								<li><a href="#">Трактора и минитрактора</a></li>
+								<li><a href="#">Зерносушильное оборудование</a></li>
+								<li><a href="#">Зерноочистительное оборудование</a></li>
+								<li><a href="#">Опрыскиватели</a></li>
+								<li><a href="#">Погрузчики зерна/Зернометатели</a></li>
+								<li><a href="#">Сеялки</a></li>
+								<li><a href="#">Протравливатели зерна</a></li>
+								<li><a href="#">Запчасти и комплектующие</a></li>
+								<li><a href="#">Прочее</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title">Компания <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Партнёры</a></li>
+							</ul>
+						</div>
+						<div class="footer__title">Покупателям <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Оплата и доставка</a></li>
+								<li><a href="#">Гарантия</a></li>
+								<li><a href="#">Договор</a></li>
+							</ul>
+						</div>
+						<ul class="footer__nav footer__nav_big">
+							<li><a href="#">Лизинг</a></li>
+							<li><a href="#">Статьи</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Реквизиты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<p>ООО «ЮМИС»</p>
+							<p>ИНН/КПП: 2312299527/231201001</p>
+							<p>ОГРН: 1212300015476</p>
+							<p>р/с № 40702810303400003976</p>
+							<p>К/с № 30101810560150000061</p>
+							<p>Филиал южный ПАО БАНКА</p>
+							<p>«ФК ОТКРЫТИЕ»</p>
+							<p>БИК № 046015061</p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__contacts">
+							<div class="footer__title">Контакты <i class="far fa-chevron-down"></i></div>
+							<div class="footer__content">
+								<p>350059, Краснодарский кр, <br>. Краснодар, <br>ул. Уральская, 114а, пом. 3</p>
+								<br>
+								<p>Телефон:</p>
+								<p><a href="tel:+79604863959">+7 960 486 39 59</a></p>
+								<p><a href="tel:+79010151406">+7 901 015 14 06</a></p>
+								<br>
+								<p>Электронная почта:</p>
+								<p><a href="mailto:info@umisagro.ru">info@umisagro.ru</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<a href="#">Политика конфиденциальности </a>
+						</div>
+						<div class="col-lg-3">
+							<p>г. Симферополь © Copyright  2023 г.</p>
+						</div>
+						<div class="col-lg">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-lg-3">
+							<a href="#" class="btn_top"><i class="far fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/modal-video/jquery-modal-video.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.1"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
