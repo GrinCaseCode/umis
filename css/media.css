@@ -1562,7 +1562,7 @@
 		text-transform: uppercase;
 	}
 	.btn-menu__title {
-		padding-top: 2px;
+		padding-top: 0px;
 	}
 	.menu-mobile {
 		top: 100%;
