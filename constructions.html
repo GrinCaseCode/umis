@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/modal-video/modal-video.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.3" />
+	<link rel="stylesheet" href="css/media.css?ver=1.3" />
+</head> 
+<body>
+
+	<div class="wrapper">
+
+		<div class="sidebar-page">
+			<div class="btn-catalog">
+				<span class='sandwich'>
+					<span class='sw-topper'></span>
+					<span class='sw-bottom'></span>
+					<span class='sw-footer'></span>
+				</span>
+				<div class="btn-catalog__title">КАТАЛОГ</div>
+			</div>
+			<ul class="menu">
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Статьи</a></li>
+				<li><a href="#">Покупателям</a></li>
+				<li><a href="#">Компания</a></li>
+			</ul>
+			<ul class="social-vertical">
+				<li><a href="#"><i class="fab fa-viber"></i></a></li>
+				<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+				<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+			</ul>
+			<div class="catalog-dropdown">
+				<ul class="menu-catalog">
+					<li><a href="#">Уборочная техника</a></li>
+					<li><a href="#">Орудия почвообработки</a></li>
+					<li><a href="#">Трактора и минитрактора</a></li>
+					<li><a href="#">Зерносушильное оборудование</a></li>
+					<li><a href="#">Зерноочистительное оборудование</a></li>
+					<li><a href="#">Опрыскиватели</a></li>
+					<li><a href="#">Погрузчики зерна/Зернометатели</a></li>
+					<li><a href="#">Сеялки</a></li>
+					<li><a href="#">Протравливатели зерна</a></li>
+					<li><a href="#">Запчасти и комплектующие</a></li>
+					<li><a href="#">Прочее</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<header class="header">
+			<div class="container-fluid">
+				<div class="header__wrapper">
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="alt">
+						</a>
+						<div class="logo-descr">Продажа с/х техники в РФ</div>
+					</div>
+					<div class="location-main">
+						<div class="location-value"><i class="far fa-chevron-down"></i> <span><strong>Краснодар</strong>, ул. Уральская, 114 а</span></div>
+					</div>
+					<div class="form-search">
+						<form>
+							<input type="text">
+							<button class="btn-search">
+								<img src="img/search.svg" alt="alt">
+							</button>
+						</form>
+					</div>
+					<div class="header__right">
+						<div class="phones-main">
+							<a href="tel:+79604863959">+7 960 486 39 59</a>
+							<span>|</span>
+							<a href="tel:+79010151406">+7 901 015 14 06</a>
+						</div>
+						<a href="#" class="btn-main">Позвоните мне</a>
+					</div>
+					<div class="btn-menu">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+						<div class="btn-menu__title">меню</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<div class="form-search">
+					<form>
+						<input type="text">
+						<button class="btn-search">
+							<img src="img/search.svg" alt="alt">
+						</button>
+					</form>
+				</div>
+				<ul class="menu-list">
+					<li class="menu__haschild">
+						<a href="#">Каталог <i class="far fa-chevron-down"></i></a>
+						<ul>
+							<li><a href="#">Уборочная техника</a></li>
+							<li><a href="#">Орудия почвообработки</a></li>
+							<li><a href="#">Трактора и минитрактора</a></li>
+							<li><a href="#">Зерносушильное оборудование</a></li>
+							<li><a href="#">Зерноочистительное оборудование</a></li>
+							<li><a href="#">Опрыскиватели</a></li>
+							<li><a href="#">Погрузчики зерна/Зернометатели</a></li>
+							<li><a href="#">Сеялки</a></li>
+							<li><a href="#">Протравливатели зерна</a></li>
+							<li><a href="#">Запчасти и комплектующие</a></li>
+							<li><a href="#">Прочее</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Статьи</a></li>
+					<li><a href="#">Покупателям</a></li>
+					<li><a href="#">Компания</a></li>
+				</ul>
+				<div class="location-main">
+					<div class="location-value"><i class="far fa-chevron-down"></i> <span><strong>Краснодар</strong>, ул. Уральская, 114 а</span></div>
+				</div>
+				<div class="phones-main">
+					<a href="tel:+79604863959">+7 960 486 39 59</a>
+					<span>|</span>
+					<a href="tel:+79010151406">+7 901 015 14 06</a>
+				</div>
+				<a href="#" class="btn-main">Позвоните мне</a>
+			</div>
+		</header>
+
+		<section class="billbord billbord_construction">
+			<div class="container">
+				<div class="billbord__content">
+					<h1 class="title-big">Изготовление и монтаж металлоконструкций</h1>
+					<div class="title-main">в том числе для сельского хозяйства «под ключ»</div>
+					<ul class="list-main">
+						<li>Собственное производство</li>
+						<li>Опыт более 7 лет</li>
+						<li>Работы любой сложности</li>
+						<li>Бесплатная доставка</li>
+					</ul>
+					<a href="#" class="btn-main">Получить консультацию</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="categories-constructions">
+			<div class="container">
+				<h2 class="title-section">Виды металлоконструкций</h2>
+				<div class="row row_page">
+					<div class="col-lg-3 col-6">
+						<div class="construction-category">
+							<a href="#" class="construction-category__image">
+								<img src="img/category_construction1.jpg" alt="alt">
+								<span class="construction-category__title">Ангары</span>
+							</a>
+							<div class="construction-category__content">
+								<div class="price-main">от 5 000 Р/м<sup>2</sup></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="construction-category">
+							<a href="#" class="construction-category__image">
+								<img src="img/category_construction2.jpg" alt="alt">
+								<span class="construction-category__title">Навесы</span>
+							</a>
+							<div class="construction-category__content">
+								<div class="price-main">от 5 000 Р/м<sup>2</sup></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="construction-category">
+							<a href="#" class="construction-category__image">
+								<img src="img/category_construction3.jpg" alt="alt">
+								<span class="construction-category__title">Заборы</span>
+							</a>
+							<div class="construction-category__content">
+								<div class="price-main">от 5 000 Р/м<sup>2</sup></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="construction-category">
+							<a href="#" class="construction-category__image">
+								<img src="img/category_construction4.jpg" alt="alt">
+								<span class="construction-category__title">Вагончики-бытовки</span>
+							</a>
+							<div class="construction-category__content">
+								<div class="price-main">от 5 000 Р/м<sup>2</sup></div>
+								<a href="#" class="link-page">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom-descr">И прочие металлоконструкции <br>Пишите, мы всегда готовы к новым идеям</div>
+			</div>
+		</section>
+
+		<section class="section-calculator">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-7">
+						<h2 class="title-main">Рассчитать стоимость ангара</h2>
+						<div class="text-big">
+							<p>С помощью данной формы вы можете произвести приблизительный расчет стоимости ангара по заданным параметрам. Для расчета стоимости необходимо выбрать тип и указать предполагаемые размеры. После чего цена на ангар будет рассчитана автоматически.</p>
+							<p><strong>Напоминаем:</strong> расчет стоимости является приблизительным и не учитывает всех пожеланий заказчика и конкретных условий строительства. Если вы уже решили заказать у нас ангар, то свяжитесь с нами любым из удобных для вас способом.</p>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="bg-calc">
+							<img src="img/bg_calc.png" alt="alt">
+						</div>
+						<div class="form-calculator">
+							<div class="name-form">Введите свои параметры</div>
+							<form>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="item-form">
+											<input type="text" placeholder="Ширина, м" required="required">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="item-form">
+											<input type="text" placeholder="Длина, м" required="required">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="item-form">
+											<select>
+												<option value="1">Тип</option>
+												<option value="1">Тип</option>
+												<option value="1">Тип</option>
+												<option value="1">Тип</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="descr-calculator">Цена указана <br>за материал и работу</div>
+									</div>
+									<div class="col-lg-6 align-self-end">
+										<div class="price-calculator">
+											<span>Итого</span>
+											<strong>125 000 Р</strong>
+										</div>
+									</div>
+									<div class="col-md-8 offset-md-4">
+										<input type="submit" value="Заказать" class="btn-main">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-payments">
+			<div class="container">
+				<h2 class="title-section">Способы оплаты</h2>
+				<div class="row row_payment">
+					<div class="col-lg-2 col-md-4 col-6">
+						<div class="item-payment">
+							<div class="item-payment__icon">
+								<img src="img/ic_payment1.svg" alt="alt">
+							</div>
+							<div class="title-middle">Наличные</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<div class="item-payment">
+							<div class="item-payment__icon">
+								<img src="img/ic_payment2.svg" alt="alt">
+							</div>
+							<div class="title-middle">По счёту</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<div class="item-payment">
+							<div class="item-payment__icon">
+								<img src="img/ic_payment3.svg" alt="alt">
+							</div>
+							<div class="title-middle">Картой</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<div class="item-payment">
+							<div class="item-payment__icon">
+								<img src="img/ic_payment4.svg" alt="alt">
+							</div>
+							<div class="title-middle">Перевод</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<div class="item-payment">
+							<div class="item-payment__icon">
+								<img src="img/ic_payment5.svg" alt="alt">
+							</div>
+							<div class="title-middle">Кредит</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-6">
+						<div class="item-payment">
+							<div class="item-payment__icon">
+								<img src="img/ic_payment6.svg" alt="alt">
+							</div>
+							<div class="title-middle">Рассрочка</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="consultation consultation_main">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-7 left-consultation">
+						<h2 class="title-main">Получить консультацию</span></h2>
+						<div class="text-big">Заполните форму и мы поможем вам спроектировать и рассчитать ваш проект!</div>
+						<form>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="item-form">
+										<input type="text" placeholder="Ваше имя" required="required">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item-form">
+										<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="file-upload">
+										<label><input type="file" name="file">Ваш проект или техническое задание <img src="img/paperclip.svg" alt="alt"></label>
+										<div class="name-upload"></div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<input type="submit" class="btn-main" value="Получить консультацию">
+								</div>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" required="required" checked="checked" />
+									<span>Согласие на обработку персональных данных</span>
+								</label>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-5">
+						<div class="image-consultation">
+							<img src="img/consultation.jpg" alt="alt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="etaps">
+			<div class="container">
+				<h2 class="title-section">Этапы проектирования и строительства</h2>
+				<ul class="slider-etaps">
+					<li>
+						<div class="item-etap">
+							<div class="item-etap__number">01</div>
+							<p>Оставьте заявку на сайте или позвоните по телефону <a href="tel:+79010151406">+7 (901) 015-14-06</a></p>
+						</div>
+					</li>
+					<li>
+						<div class="item-etap">
+							<div class="item-etap__number">02</div>
+							<p>Наш менеджер свяжется с Вами в этот же день для обсуждения деталей заказа с возможным выездом на место</p>
+						</div>
+					</li>
+					<li>
+						<div class="item-etap">
+							<div class="item-etap__number">03</div>
+							<p>Составление сметы и подписание Договора</p>
+						</div>
+					</li>
+					<li>
+						<div class="item-etap">
+							<div class="item-etap__number">04</div>
+							<p>Изготовление вашего заказа от 5 дней в зависимости от сложности и вида</p>
+						</div>
+					</li>
+					<li>
+						<div class="item-etap">
+							<div class="item-etap__number">05</div>
+							<p>Доставка и монтаж рекламных объектов</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section-advantages">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<h2 class="title-main">Наши преимущества</h2>
+						<div class="title-middle">87% заказчиков выбирают нас!</div>
+						<ul class="list-main">
+							<li>Работаем четко в рамках договора</li>
+							<li>7 лет работы с постоянными клиентами</li>
+							<li>Своя производственная база. Работаем без посредников</li>
+							<li>Гарантия на всю нашу <br>продукцию и услуги</li>
+							<li>Бесплатная доставка</li>
+							<li>Бесплатный выезд замерщика</li>
+							<li>Всю нашу продукцию и услуги <br>Вы можете оплатить в кредит</li>
+							<li>На всю нашу продукцию и услуги Вы можете оформить рассрочку</li>
+						</ul>
+					</div>
+					<div class="col-lg-5">
+						<div class="image-advantages">
+							<img src="img/img_avd.jpg" alt="alt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-text">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<p>Ангары арочного типа становятся все более востребованными в 2023 году, возведением таких сооружений в Симферополе занимается компания СМГ-Смф. Речь идет о помещениях многоцелевого назначения. Их используют в различных сферах бизнеса. В качестве основного материала для возведения арочных сооружений применяют металлоконструкции. <br>Представители СМГ-Смф готовы рассчитать, изготовить и смонтировать арочный ангар на любой площадке. Подобные сооружения обладают внушительным списком достоинств, главные из которых заключаются в:</p>
+					</div>
+					<div class="col-lg-6">
+						<p>универсальности; <br>эстетичном облике; <br>продолжительном сроке эксплуатации. <br>Быстровозводимым сооружениям не страшны неблагоприятные воздействия природных факторов, заказать их можно по приемлемой стоимости. Первоначально в таких ангарах хранили самолеты, но с течением времени сфера применения существенно увеличилась. Строить прочные и надежные сооружения по-настоящему выгодно, главное – поручать такую работу профессионалам.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-reviews">
+			<div class="container">
+				<h2 class="title-section">Отзывы о компании ЮМИС</h2>
+				<ul class="slider-reviews">
+					<li>
+						<div class="item-review">
+							<div class="item-review__head">
+								<div class="name-review">Сергей Самойлов</div>
+								<div class="rating rating_5">
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+								</div>
+							</div>
+							<p>Мы недавно открыли торговый павильон и чтобы сэкономить сделали магазин из бытовки, которую купили в компании Сталькон-Юг. Понравилась цена на вагончик, привезли его быстро. В магазине уютно, тепло, даже зимой. Хорошая компания, спасибо.</p>
+							<div class="item-review__date">01.08.2023</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-review">
+							<div class="item-review__head">
+								<div class="name-review">Сергей Самойлов</div>
+								<div class="rating rating_5">
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+								</div>
+							</div>
+							<p>Мы недавно открыли торговый павильон и чтобы сэкономить сделали магазин из бытовки, которую купили в компании Сталькон-Юг. Понравилась цена на вагончик, привезли его быстро. В магазине уютно, тепло, даже зимой. Хорошая компания, спасибо.</p>
+							<div class="item-review__date">01.08.2023</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-review">
+							<div class="item-review__head">
+								<div class="name-review">Сергей Самойлов</div>
+								<div class="rating rating_5">
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+								</div>
+							</div>
+							<p>Мы недавно открыли торговый павильон и чтобы сэкономить сделали магазин из бытовки, которую купили в компании Сталькон-Юг. Понравилась цена на вагончик, привезли его быстро. В магазине уютно, тепло, даже зимой. Хорошая компания, спасибо.</p>
+							<div class="item-review__date">01.08.2023</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-review">
+							<div class="item-review__head">
+								<div class="name-review">Сергей Самойлов</div>
+								<div class="rating rating_5">
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+								</div>
+							</div>
+							<p>Мы недавно открыли торговый павильон и чтобы сэкономить сделали магазин из бытовки, которую купили в компании Сталькон-Юг. Понравилась цена на вагончик, привезли его быстро. В магазине уютно, тепло, даже зимой. Хорошая компания, спасибо.</p>
+							<div class="item-review__date">01.08.2023</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-review">
+							<div class="item-review__head">
+								<div class="name-review">Сергей Самойлов</div>
+								<div class="rating rating_5">
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+								</div>
+							</div>
+							<p>Мы недавно открыли торговый павильон и чтобы сэкономить сделали магазин из бытовки, которую купили в компании Сталькон-Юг. Понравилась цена на вагончик, привезли его быстро. В магазине уютно, тепло, даже зимой. Хорошая компания, спасибо.</p>
+							<div class="item-review__date">01.08.2023</div>
+						</div>
+					</li>
+				</ul>
+				<div class="arrows-reviews"></div>
+			</div>
+		</section>
+
+		<section class="video-reviews">
+			<div class="container">
+				<h2 class="title-section">Видео отзывы о компании ЮМИС</h2>
+				<ul class="slider-videos">
+					<li>
+						<a href="#" class="item-video" data-video-id="E8d_JvMpoY4">
+							<img src="img/video_review1.jpg" alt="alt">
+							<span class="play-btn"><i class="fas fa-play"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-video" data-video-id="E8d_JvMpoY4">
+							<img src="img/video_review2.jpg" alt="alt">
+							<span class="play-btn"><i class="fas fa-play"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-video" data-video-id="E8d_JvMpoY4">
+							<img src="img/video_review3.jpg" alt="alt">
+							<span class="play-btn"><i class="fas fa-play"></i></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section-portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 section-portfolio__right">
+						<h2 class="title-main">Наши работы</h2>
+						<p>Мы предлагаем как типовые, так и индивидуальные проекты по доступным ценам и, при необходимости, корректируем стандартные решения, чтобы они соответствовали вашим требованиям. В рамках выполнения наших услуг, мы проводим полный комплекс мероприятий, включающий проектно-инженерные изыскания, разработку технических заданий и документации, строительство объектов, прокладку инженерных сетей, а также внешнюю и внутреннюю отделку. </p>
+					</div>
+					<div class="col-lg-7">
+						<ul class="slider-photos">
+							<li>
+								<a href="img/photo_portfolio1.jpg" class="slider-photos__item fancybox" rel="portfolio">
+									<img src="img/photo_portfolio1.jpg" alt="alt">
+								</a>
+							</li>
+							<li>
+								<a href="img/photo_portfolio1.jpg" class="slider-photos__item fancybox" rel="portfolio">
+									<img src="img/photo_portfolio1.jpg" alt="alt">
+								</a>
+							</li>
+							<li>
+								<a href="img/photo_portfolio1.jpg" class="slider-photos__item fancybox" rel="portfolio">
+									<img src="img/photo_portfolio1.jpg" alt="alt">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="questions">
+			<div class="container">
+				<h2 class="title-section">Часто задаваемые вопросы</h2>
+				<div class="row">
+					<div class="col-lg-8 questions__left">
+						<div class="item-question active">
+							<div class="item-question__head">Сколько времени занимает изготовление и монтаж? <div class="item-question__arrow"><i class="fas fa-chevron-down"></i></div></div>
+							<div class="item-question__content" style="display: block;">
+								<p>При современной технологии монтажа быстровозводимых складов используются металлоконструкции из стали в качестве каркаса и сэндвич-панели в роли ограждающих элементов. Это обеспечивает долговечность сооружений, которая составляет до 60 лет благодаря высокому качеству материалов. Благодаря использованию прочных металлических конструкций построенное здание не деформируется и может выдержать любые погодные условия. <br>Быстрая скорость строительства, возможность возведения в любое время года, отсутствие необходимости в дополнительной отделке и низкая стоимость по сравнению с каменными зданиями, позволяют сэкономить на основании. Также металлоконструкции экологичны и безопасны для окружающей среды.</p>
+							</div>
+						</div>
+						<div class="item-question">
+							<div class="item-question__head">Какие металлоконструкции вы изготавливаете? <div class="item-question__arrow"><i class="fas fa-chevron-down"></i></div></div>
+							<div class="item-question__content">
+								<p>При современной технологии монтажа быстровозводимых складов используются металлоконструкции из стали в качестве каркаса и сэндвич-панели в роли ограждающих элементов. Это обеспечивает долговечность сооружений, которая составляет до 60 лет благодаря высокому качеству материалов. Благодаря использованию прочных металлических конструкций построенное здание не деформируется и может выдержать любые погодные условия. <br>Быстрая скорость строительства, возможность возведения в любое время года, отсутствие необходимости в дополнительной отделке и низкая стоимость по сравнению с каменными зданиями, позволяют сэкономить на основании. Также металлоконструкции экологичны и безопасны для окружающей среды.</p>
+							</div>
+						</div>
+						<div class="item-question">
+							<div class="item-question__head">Как долго выезжает замерщик и сколько это стоит? <div class="item-question__arrow"><i class="fas fa-chevron-down"></i></div></div>
+							<div class="item-question__content">
+								<p>При современной технологии монтажа быстровозводимых складов используются металлоконструкции из стали в качестве каркаса и сэндвич-панели в роли ограждающих элементов. Это обеспечивает долговечность сооружений, которая составляет до 60 лет благодаря высокому качеству материалов. Благодаря использованию прочных металлических конструкций построенное здание не деформируется и может выдержать любые погодные условия. <br>Быстрая скорость строительства, возможность возведения в любое время года, отсутствие необходимости в дополнительной отделке и низкая стоимость по сравнению с каменными зданиями, позволяют сэкономить на основании. Также металлоконструкции экологичны и безопасны для окружающей среды.</p>
+							</div>
+						</div>
+						<div class="item-question">
+							<div class="item-question__head">Изменяется ли цена и что в неё входит? <div class="item-question__arrow"><i class="fas fa-chevron-down"></i></div></div>
+							<div class="item-question__content">
+								<p>При современной технологии монтажа быстровозводимых складов используются металлоконструкции из стали в качестве каркаса и сэндвич-панели в роли ограждающих элементов. Это обеспечивает долговечность сооружений, которая составляет до 60 лет благодаря высокому качеству материалов. Благодаря использованию прочных металлических конструкций построенное здание не деформируется и может выдержать любые погодные условия. <br>Быстрая скорость строительства, возможность возведения в любое время года, отсутствие необходимости в дополнительной отделке и низкая стоимость по сравнению с каменными зданиями, позволяют сэкономить на основании. Также металлоконструкции экологичны и безопасны для окружающей среды.</p>
+							</div>
+						</div>
+						<div class="item-question">
+							<div class="item-question__head">На какой территории вы работаете? <div class="item-question__arrow"><i class="fas fa-chevron-down"></i></div></div>
+							<div class="item-question__content">
+								<p>При современной технологии монтажа быстровозводимых складов используются металлоконструкции из стали в качестве каркаса и сэндвич-панели в роли ограждающих элементов. Это обеспечивает долговечность сооружений, которая составляет до 60 лет благодаря высокому качеству материалов. Благодаря использованию прочных металлических конструкций построенное здание не деформируется и может выдержать любые погодные условия. <br>Быстрая скорость строительства, возможность возведения в любое время года, отсутствие необходимости в дополнительной отделке и низкая стоимость по сравнению с каменными зданиями, позволяют сэкономить на основании. Также металлоконструкции экологичны и безопасны для окружающей среды.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="block-form">
+							<div class="title-middle">Задать вопрос</div>
+							<form>
+								<div class="item-form">
+									<input type="text" placeholder="Имя" required="required">
+								</div>
+								<div class="item-form">
+									<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+								</div>
+								<div class="item-form">
+									<textarea placeholder="Ваш вопрос" required="required"></textarea>
+								</div>
+								<input type="submit" class="btn-main" value="Отправить">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required="required" checked="checked" />
+										<span>Согласие на обработку персональных данных</span>
+									</label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo2.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Продажа с/х техники в РФ</div>
+						</div>
+						<ul class="social-list">
+							<li><a href="#"><i class="fab fa-viber"></i></a></li>
+							<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+							<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Каталог <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Уборочная техника</a></li>
+								<li><a href="#">Орудия почвообработки</a></li>
+								<li><a href="#">Трактора и минитрактора</a></li>
+								<li><a href="#">Зерносушильное оборудование</a></li>
+								<li><a href="#">Зерноочистительное оборудование</a></li>
+								<li><a href="#">Опрыскиватели</a></li>
+								<li><a href="#">Погрузчики зерна/Зернометатели</a></li>
+								<li><a href="#">Сеялки</a></li>
+								<li><a href="#">Протравливатели зерна</a></li>
+								<li><a href="#">Запчасти и комплектующие</a></li>
+								<li><a href="#">Прочее</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__title">Компания <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Сертификаты</a></li>
+								<li><a href="#">Партнёры</a></li>
+							</ul>
+						</div>
+						<div class="footer__title">Покупателям <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Оплата и доставка</a></li>
+								<li><a href="#">Гарантия</a></li>
+								<li><a href="#">Договор</a></li>
+							</ul>
+						</div>
+						<ul class="footer__nav footer__nav_big">
+							<li><a href="#">Лизинг</a></li>
+							<li><a href="#">Статьи</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title">Реквизиты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<p>ООО «ЮМИС»</p>
+							<p>ИНН/КПП: 2312299527/231201001</p>
+							<p>ОГРН: 1212300015476</p>
+							<p>р/с № 40702810303400003976</p>
+							<p>К/с № 30101810560150000061</p>
+							<p>Филиал южный ПАО БАНКА</p>
+							<p>«ФК ОТКРЫТИЕ»</p>
+							<p>БИК № 046015061</p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="footer__contacts">
+							<div class="footer__title">Контакты <i class="far fa-chevron-down"></i></div>
+							<div class="footer__content">
+								<p>350059, Краснодарский кр, <br>. Краснодар, <br>ул. Уральская, 114а, пом. 3</p>
+								<br>
+								<p>Телефон:</p>
+								<p><a href="tel:+79604863959">+7 960 486 39 59</a></p>
+								<p><a href="tel:+79010151406">+7 901 015 14 06</a></p>
+								<br>
+								<p>Электронная почта:</p>
+								<p><a href="mailto:info@umisagro.ru">info@umisagro.ru</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<a href="#">Политика конфиденциальности </a>
+						</div>
+						<div class="col-lg-3">
+							<p>г. Симферополь © Copyright  2023 г.</p>
+						</div>
+						<div class="col-lg">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-lg-3">
+							<a href="#" class="btn_top"><i class="far fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/modal-video/jquery-modal-video.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.3"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
