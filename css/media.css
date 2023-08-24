@@ -2110,6 +2110,9 @@
 	.questions {
 		padding-top: 30px;
 	}
+	.item-video {
+		height: 210px;
+	}
 } 
 
 /* Custom, iPhone Retina */
