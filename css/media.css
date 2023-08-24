@@ -2116,6 +2116,9 @@
 	.item-form textarea {
 		padding-top: 15px;
 	}
+	.slider-photos__item {
+		height: 215px;
+	}
 } 
 
 /* Custom, iPhone Retina */
