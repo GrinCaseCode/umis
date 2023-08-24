@@ -2113,6 +2113,9 @@
 	.item-video {
 		height: 210px;
 	}
+	.item-form textarea {
+		padding-top: 15px;
+	}
 } 
 
 /* Custom, iPhone Retina */
